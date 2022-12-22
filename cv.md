@@ -1,5 +1,5 @@
 # Roman Sokolov
-![Roman_Sokolov](./photo_2022-12-11_19-27-58.jpg "Roamn Sokolov")
+![Roman_Sokolov](./images/content/my_photo_cv.jpg "Roamn Sokolov")
 
 ## Contacts
 * Location: Petrozavodsk, Russian Federation
