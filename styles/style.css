@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Doloman Pavljenko Light;
+    src: url('../fonts/DolomanPavljenko.otf');
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -53,6 +58,11 @@ h1, p {
 
 h2, h3 {
     text-transform: capitalize;
+}
+
+p {
+    font-family: Doloman Pavljenko Light;
+    font-size: 18px;
 }
 
 
