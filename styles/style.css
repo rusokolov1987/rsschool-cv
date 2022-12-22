@@ -6,7 +6,7 @@ html {
     margin: 0 auto;
     padding: 0;
     max-width: 1440px;
-    max-height: 2200px;
+    max-height: 2500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,11 +28,12 @@ html {
 }
 
 .main {
-    max-height: 1152px;
+    height: 1350px;
 }
 
 .footer {
     max-height: 150px;
+    background-color: #e0dada;
 }
 
 .container {
