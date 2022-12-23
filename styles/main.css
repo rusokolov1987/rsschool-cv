@@ -30,6 +30,10 @@
     border-top-left-radius: 30px;
 }
 
+.my-contact ul {
+    list-style: none;
+}
+
 .contact-list, .education-list, .language-list, .about-text, .skill-list, .my-code, .project-list {
     margin-left: 30px;
     padding-top: 10px;
