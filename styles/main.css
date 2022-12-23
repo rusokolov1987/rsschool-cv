@@ -35,6 +35,10 @@
     padding-top: 10px;
 }
 
+.my-contact ul {
+    list-style: none;
+}
+
 .main p {
     text-transform: none;
 }
@@ -83,8 +87,11 @@
     padding-top: 20px;
 }
 
-.my-link {
+a, .my-link {
     text-decoration: none;
+}
+
+.my-link {
     color: red;
 }
 
