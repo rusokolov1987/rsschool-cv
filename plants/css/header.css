@@ -54,9 +54,15 @@
 
 .menu-text a {
     text-decoration: none;
+    text-shadow: none;
     color: #010201;
 }
 
 .menu-text a:hover {
     color: #E06733;
+    text-shadow: 2px 4px 4px #000000;
+}
+
+.menu-text a {
+    transition: 1s;
 }
