@@ -35,6 +35,11 @@
     height: 407.36px;
 }
 
+.leafs {
+    width: 100%;
+    height: 100%;
+}
+
 .right-content {
     width: 549px;
     height: 340px;
@@ -148,8 +153,8 @@
 
 .price-btn {
     width: 162px;
-    height: 50px;
-    margin-top: 35px;
+    height: 54px;
+    margin-top: 37px;
     margin-left: 450px;
 }
 
@@ -189,8 +194,8 @@
 
 .price-leafs {
     width: 152px;
-    height: 175px;
-    margin-top: 45px;
+    height: 179px;
+    margin-top: 41px;
     margin-left: 460px;
 }
 
@@ -207,13 +212,13 @@
 
 .contact-woman {
     margin-top: 52px;
-    margin-left: 68px;
+    margin-left: 71px;
     width: 400px;
     height: 497px;
 }
 
 .contact-text {
-    margin-top: 57px;
+    margin-top: 58px;
     margin-left: 39px;
     width: 200px;
     height: 51px;
@@ -221,7 +226,7 @@
 
 .contact-select {
     margin-top: 148px;
-    margin-right: 68px;
+    margin-right: 70px;
     width: 450px;
     height: 50px;
 }
