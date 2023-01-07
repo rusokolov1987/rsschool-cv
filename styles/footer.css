@@ -1,0 +1,24 @@
+.footer .container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    border-top-right-radius: 30px;
+    border-radius: 30px;
+}
+
+.date-create, .logo-school, .github {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-link, .rss-photo {
+    width: 70px;
+    height: 70px;
+}

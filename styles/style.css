@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Doloman Pavljenko Light;
+    src: url('../fonts/DolomanPavljenko.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    max-height: 2500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container, .header, .main, .footer {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header, .main, .footer {
+    width: 80%;
+}
+
+.header {
+    height: 50px;
+    background-color: #e0dada;
+}
+
+.main {
+    height: 1350px;
+}
+
+.footer {
+    max-height: 150px;
+    background-color: #e0dada;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.border {
+    border-bottom: #000 2px solid;
+    width: 50px;
+}
+
+h1, p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    text-transform: capitalize;
+}
+
+p {
+    font-family: Doloman Pavljenko Light;
+    font-size: 18px;
+}
+
+
