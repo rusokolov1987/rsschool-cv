@@ -7,13 +7,16 @@
     <title>Plants</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="icon" type="image/ico" href="./images/favicons/plant.ico">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
             <div class="logo">
-                <img class="logo-png" src="./images/logo.png" alt="logo">
+                <img class="logo-png" src="./images/logo/logo.svg" alt="logo">
                 <p class="logo-text">Plants</p>
             </div>
             <div class="menu">
@@ -29,11 +32,125 @@
     </header>
 
     <main class="main">
-        <section class="home" id="1"></section>
-        <section class="about" id="2"></section>
-        <section class="service" id="3"></section>
-        <section class="price" id="4"></section>
-        <section class="contacts" id="5"></section>
+        <section class="welcome" id="1">
+            <div class="welcome-content">
+                <div class="left-content">
+                    <img class="leafs" alt="leafs" src="./images/content/leafs.png">
+                </div>
+                <div class="right-content">
+                    <h1>We grow <span class="green-plants">plants</span> and give you oxygen</h1>
+                    <p class="welcome-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="welcome-btn">
+                        <button class="welcome-button"><p class="welcome-p">LEARN MORE</p></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="2">
+            <div class="about-section">
+                <div class="about-text">
+                    <h2 class="about-h2"><span class="green-h2">We are</span><span class="orange-h2"> professional experienced</span><span class="green-h2"> gardeners</span></h2>
+                    <p class="about-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+                <div class="about-img">
+                    <img alt="houseplant" src="./images/content/houseplant.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="3">
+            <div class="services-content">
+                <div class="services-info">
+                    <div class="services-project"><h2 class="services-h2">Service and our projects</h2></div>
+                    <div class="services-btn">
+                        <button class="gardens">Gardens</button>
+                        <button class="lawn">Lawn</button>
+                        <button class="planting">Planting</button>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="top-block">
+                        <div class="items">
+                            <img alt="item_1" src="./images/content/item_1.png">
+                            <p class="title">Garden care</p>
+                            <p class="description">Lorem Ipsum has been the industry</p>
+                        </div>
+                        <div class="items">
+                            <img alt="item_2" src="./images/content/item_2.png">
+                            <p class="title">Planting</p>
+                            <p class="description">Lorem Ipsum has been the industry</p>
+                        </div>
+                        <div class="items">
+                            <img alt="item_3" src="./images/content/item_3.png">
+                            <p class="title">Lawn care</p>
+                            <p class="description">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="items">
+                            <img alt="item_4" src="./images/content/item_4.png">
+                            <p class="title">Planting</p>
+                            <p class="description">Lorem Ipsum has been the industry</p>
+                        </div>
+                        <div class="items">
+                            <img alt="item_5" src="./images/content/item_5.png">
+                            <p class="title">Garden care</p>
+                            <p class="description">Lorem Ipsum has been the industry</p>
+                        </div>
+                        <div class="items">
+                            <img alt="item_6" src="./images/content/item_6.png">
+                            <p class="title">Planting</p>
+                            <p class="description">Lorem Ipsum has been the industry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="prices" id="4">
+            <div class="price-wrapper">
+                <div class="price-content">
+                    <h2 class="price-h2">Prices</h2>
+                    <div class="price-item">
+                        <form class="price-form" action="" method="post">
+                            <select class="price-select">
+                                <option disabled>Basics</option>
+                            </select>
+                            <select class="price-select">
+                                <option disabled>Standart</option>
+                            </select>
+                            <select class="price-select">
+                                <option disabled>Pro care</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="to-contact">
+                    <div class="text-call-us">
+                        <h2 class="call-h2">Our best <span class="green-h2">gardeners</span> are ready to help you</h2>
+                        <div class="price-btn">
+                            <button class="price-button"><p class="price-p">Contact us</p></button>
+                        </div>
+                        <div class="price-leafs">
+                            <img class="leafs-img" alt="leafs" src="./images/content/leafs_small.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="5">
+            <div class="contact-woman">
+                <img alt="wooman" src="./images/content/woman.png">
+            </div>
+            <div class="contact-text"><h2 class="contact-h2">Contact us</h2></div>
+            <div class="contact-select">
+                <select class="accordion-btn" name="" id="">
+                    <option disabled>City</option>
+                </select>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -41,16 +158,18 @@
             <div class="footer-data">
                 <p class="footer-text">&copy;</p>
                 <p class="footer-text">2022</p>
-                <p class="footer-text">github</p>
+                <p class="footer-text"><a class="footer-link" href="https://github.com/rusokolov1987" target="_blank">github</a></p>
             </div>
             <div class="label">
-                <p class="footer-text">Rolling Scoopes School</p>
+                <p class="footer-text"><a class="footer-link" href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a></p>
             </div>
             <div class="social-list">
-                <a href="#"><img class="social" src="./images/inst.png" alt="instagram"></a>
-                <a href="#"><img src="./images/fb.png" alt="facebook" class="social"></a>
-                <a href=""><img src="./images/tw.png" alt="twitter" class="social"></a>
-                <a href="#"><img src="./images/pinterest.png" alt="pinterest" class="social"></a>
+                <ul class="social-items">
+                    <li><a href="#"><img class="social" src="./images/logo/inst.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="./images/logo/fb.svg" alt="facebook" class="social"></a></li>
+                    <li><a href="#"><img src="./images/logo/tw.svg" alt="twitter" class="social"></a></li>
+                    <li><a href="#"><img src="./images/logo/pinterest.svg" alt="pinterest" class="social"></a></li>
+                </ul>
             </div>
         </div>
     </footer>

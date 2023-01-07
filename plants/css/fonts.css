@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inika';
+    src: url(../fonts/Inika.ttf);
+}
+
+@font-face {
+    font-family: 'Inika Bold';
+    src: url(../fonts/Inika-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+.logo-text, .menu-text, .about-h2, .services-h2, .gardens, .lawn, .planting {
+    font-family: 'Inika';
+}
+
+.footer-text, .contact-p {
+    font-family: 'Inter';
+}
+
+.btn-p, .welcome-text, .about-p, .description {
+    font-family: 'Inter Regular';
+}
+
+.logo-text, .menu-text {
+    font-size: 16px;
+}
+
+.logo-text, .footer-text {
+    font-weight: 400;
+}
+
+.menu-text {
+    font-weight: 700;
+}
+
+h1, .about-h2, .welcome-text, .about-p  {
+    text-shadow: 0px 3px 2px rgba(0,0,0,0.25);
+}
+
+h1, .title {
+    font-family: 'Inter Bold';
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.contact-h2, .price-p {
+    font-family: 'Inika Bold';
+}
+
+.footer-text, .welcome-text, .about-p {
+    font-size: 20px;
+}
+
+.welcome-text, .about-p {
+    color: #636060;
+}
+
+.welcome-text {
+    width: 525.44px;
+    height: 105;
+    line-height: 35px;
+}
+
+.about-h2 {
+    width: 463px;
+    height: 102px;
+    font-weight: 100;
+}
+
+.about-p {
+    width: 605;
+    height: 208px;
+    line-height: 30px;
+    margin-top: 45px;
+}
+
+.green-h2, .green-plants, .contact-h2 {
+    color: #499A18;
+}
+
+.orange-h2 {
+    color: #E06733;
+}
+
+.price-h2, .call-h2 {
+    font-family: 'Inter Bold';
+}
+
+.call-h2 {
+    text-align: right;
+    line-height: 50px;
+    letter-spacing: -1px;
+    width: 452px;
+    height: 103px;
+    margin-left: 160px;
+}
+
+.price-h2 {
+    width: 135px;
+    height: 39px;
+}
+
+.welcome-p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.price-p {
+    font-size: 20px;
+    color: #E06733;
+}
+
+.contact-p {
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.price-select-p {
+    color: red;
+}
+
+.gardens, .lawn, .planting {
+    font-size: 20px;
+}
+
+.title {
+    padding-top: 5px;
+    text-align: center;
+    color: #E06733;
+    font-size: 20px;
+}
+
+.services-h2 {
+    color: #499A18;
+}
+
+.description {
+    padding-top: 10px;
+    text-align: center;
+    color: #717171;
+    font-size: 16px;
+}
