@@ -46,15 +46,13 @@
 
 .welcome-btn {
     margin-top: 48px;
-}
-
-.welcome-btn {
     width: 158px;
     height: 44px;
 }
 
-.welcome-button, .price-button {
+.welcome-button, .price-button, .gardens, .lawn, .planting {
     border: 2px #E06733 solid;
+    transition: 0.7s;
 }
 
 .price-button {
@@ -261,7 +259,6 @@ select {
     width: 161px;
     height: 50px;
     background-color: #EDF2EC;
-    border: 1px solid #E06733;
     border-radius: 5px;
     color: #E06733;
 }
@@ -293,4 +290,14 @@ select {
 
 .bottom-block {
     margin-top: 55px;
+}
+
+button:hover {
+    background-color: #E06733;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+select, button {
+    cursor: pointer;
 }
