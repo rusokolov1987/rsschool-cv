@@ -1,0 +1,136 @@
+.main .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container, .right-container {
+    margin-top: 20px;
+    height: 100%;
+}
+
+.left-container {
+    width: 28%;
+}
+
+.right-container {
+    width: 72%;
+}
+
+.cv-photo {
+    height: 320px;
+    width: 320px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.my-contact {
+    margin-top: 20px;
+    height: 350px;
+    background-color: #fbebeb;
+    border-top-left-radius: 30px;
+}
+
+.my-contact ul {
+    list-style: none;
+}
+
+.contact-list, .education-list, .language-list, .about-text, .skill-list, .my-code, .project-list {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.my-contact ul {
+    list-style: none;
+}
+
+.main p {
+    text-transform: none;
+}
+
+.main h3 {
+    margin-bottom: 0;
+}
+
+.my-education {
+    margin-top: 20px;
+    height: 200px;
+    background-color: #fbede0;
+    border-top-right-radius: 30px;
+}
+
+.my-language {
+    margin-top: 20px;
+    height: 230px;
+    background-color: #fbebef;
+    border-top-left-radius: 30px;
+}
+
+.profile {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 80%;
+    height: 40%;
+}
+
+.about-me {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 200px;
+    width: 98%;
+    background-color: #f8f3ef;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.info-text {
+    padding-top: 20px;
+}
+
+a, .my-link {
+    text-decoration: none;
+}
+
+.my-link {
+    color: red;
+}
+
+.my-skills {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 98%;
+    height: 250px;
+    background-color: rgb(251, 237, 224);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.code-example {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 98%;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(251, 235, 235);
+}
+
+.code {
+    margin-left: 30px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.my-project {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 98%;
+    height: 200px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(251, 237, 224);
+}
